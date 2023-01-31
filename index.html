@@ -9,6 +9,46 @@
     <title>Etch-A-Sketch</title>
 </head>
 <body>
-    <h1 class="title">Etch-A-Sketch</h1>
+    <!--header-->
+    <div class="header">
+        <h1 class="title">Etch-A-Sketch</h1>
+    </div>
+
+    <!--Main-->
+    <div class="main">
+        <div class="grid-container">
+
+        </div>
+
+        <!--Controls-->
+        <div class="controls">
+            <div class="slider-controls">
+                <div class="grid-size-value">16 x 16</div>
+                <input type="range" name="grid-size-range" id="grid-size-slider" min="2" max="50"/>
+            </div>
+            <div class="colorpicker">
+                <input type="color" name="color-picker" id="grid-color-picker"/>
+            </div>
+            <div class="clearbutton">
+                <button type="reset" class="clearBtn">
+                    Clear
+                </button>
+            </div>
+            <div class="earaserbutton">
+                <button class="eraser">
+                    Eraser
+                </button>
+            </div>
+            <div class="showgridbutton">
+                <button class="showgrid">
+                    Toggle Grid
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="footer">
+        <p class="footer">Footer</p>
+    </div>
 </body>
 </html>
